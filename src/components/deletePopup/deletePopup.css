@@ -12,7 +12,7 @@
   z-index: 12;
 }
 .delete_header {
-  background-color: rgb(147, 147, 147);
+  background-color: rgba(171, 171, 171, 0.453);
   display: flex;
   align-items: center;
   gap: 5px;
