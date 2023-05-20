@@ -1,0 +1,26 @@
+.layout_flex{
+    display: flex;
+}
+.left_container{
+    width: 20%;
+
+}
+.right_container{
+    width: 80%;
+    overflow: scroll;
+}
+.right_container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .right_container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  .right_container::-webkit-scrollbar-thumb {
+    background: #c6d4e5; 
+  }
+
+ .right_container ::-webkit-scrollbar-thumb:hover {
+    background: #24244d; 
+  }

@@ -1,0 +1,47 @@
+.header {
+  border: 1px solid rgba(220, 224, 227, 1);
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1% 4%;
+  display: flex;
+  align-items: center;
+  border-left: none;
+  justify-content: space-between;
+}
+.header_title {
+  opacity: 1;
+  color: rgba(64, 73, 101, 1);
+  font-family: "NFunitoSans-Bold", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header_button {
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(9, 30, 66, 0.25),
+    0px 0px 1px rgba(9, 30, 66, 0.31);
+  opacity: 1;
+  background-color: rgba(129, 78, 231, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 138px;
+  padding: 10px 23px;
+}
+.header_button_icon {
+  width: 20px;
+  height: 20px;
+}
+.header_button_text {
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  font-family: "NFunitoSans-Bold", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+}

@@ -1,0 +1,43 @@
+.delete_container {
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(58, 58, 68, 0.16),
+    0px 8px 16px rgba(90, 91, 106, 0.16);
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
+  width: 177px;
+  border-radius: 10px;
+  overflow: hidden;
+  top: -4.3rem;
+  right: -1rem;
+  z-index: 12;
+}
+.delete_header {
+  background-color: rgb(147, 147, 147);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+    padding: 3%;
+    font-family: "NFunitoSans-Bold", sans-serif, Arial, Helvetica, sans-serif;
+
+}
+.delete_body{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    position: relative;
+    align-items: center;
+font-family: "NFunitoSans-Bold", sans-serif, Arial, Helvetica, sans-serif;
+
+}
+
+.delete_check_box{
+    display: flex;
+    gap:
+     10px;
+     
+}
+.delete_check_box img{
+width: 18px;
+height: 18px;
+
+}
